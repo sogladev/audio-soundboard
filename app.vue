@@ -1,5 +1,4 @@
 
-import AudioComponent from './components/AudioComponent.vue';
 <template>
   <div>
     <h1>hello world</h1>

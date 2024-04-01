@@ -6,7 +6,7 @@
         <span class="font-semibold text-2xl tracking-tight">Audio-Soundboard</span>
       </div>
       <div class="flex items-center ml-8">
-        <a href="https://github.com/jellemeeus/audio" style="display: flex; align-items: center;">
+        <a href="https://github.com/jellemeeus/audio-soundboard" tyle="display: flex; align-items: center;">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
             viewBox="0 0 16 16">
             <path

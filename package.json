@@ -11,6 +11,7 @@
     "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"

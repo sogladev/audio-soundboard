@@ -1,75 +1,91 @@
-# Nuxt 3 Minimal Starter
+# audio-soundboard
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A soundboard app to play stereo audio samples.
+
+Live demo: https://jellemeeus.github.io/audio-soundboard
+
+![screenshot of app](./images/screenshot.png)
+
+The app has two buttons that play audio samples - `left.mp3` in the left channel only, and `right.mp3` in the right channel only.
+
+## Key Features
+
+- Play stereo audio samples
+- Simple UI with two buttons
+- Hosted on GitHub pages
+
+## Built with
+
+[![Icons](https://skillicons.dev/icons?i=ts,js,html,css,tailwind,vue,nuxt)](https://skillicons.dev)
+
+- Typescript
+- Tailwind CSS
+- Vue 3 (Composition API)
+- Nuxt
 
 ## Setup
 
-Make sure to install the dependencies:
-
-```bash
-# npm
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Development
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Deployment
 
-Build the application for production:
+Generate static site:
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```
+npm run generate
 ```
 
-Locally preview production build:
+Deploy to GitHub Pages:
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+```
+npm run deploy
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Resources
+
+- [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
+- [GitHub Pages deployment](https://github.com/darioTecchia/nuxt3-ghpages)
+
+
+
+```
+npm install
+```
+
+## Development
+
+```
+npm run dev
+```
+
+## Deployment
+
+generate static site with
+```
+npm run generate
+```
+
+deploy to github pages
+```
+npm run deploy
+```
+
+package.json script
+```
+    "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
+```
+
+## Resources
+
+https://github.com/darioTecchia/nuxt3-ghpages
+https://github.com/andgyk/anime-soundboard
+
+Nuxt 3 Minimal Starter: Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

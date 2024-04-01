@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  ssr: false,
   app: {
     head: {
       title: 'Nuxt3 - audio-soundboard',
@@ -12,7 +11,7 @@ export default defineNuxtConfig({
         { name: 'format-detection', content: 'telephone=no' }
       ],
     },
-    baseURL: (process.env.NODE_ENV == "production") ? '/audio-soundboard/' : '/',
+    baseURL: '/audio-soundboard/',
   },
   modules: ["@nuxtjs/tailwindcss"],
 });

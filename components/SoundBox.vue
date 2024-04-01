@@ -30,7 +30,7 @@ function onClick() {
 <template>
     <div className="mt-3">
         <button @click="onClick"
-            class="bg-emerald-600 hover:bg-emerald-700 transition py-16 mr-3 px-14 w-64 rounded border-b-4"
+            class="bg-emerald-600 hover:bg-emerald-700 transition py-16 mr-3 px-14 rounded w-64 border-b-4"
             :class="{ 'border-emerald-600': isPlaying }">
             {{ text }}
         </button>

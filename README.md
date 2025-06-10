@@ -2,7 +2,7 @@
 
 A soundboard app to play stereo audio samples.
 
-Live demo: https://jellemeeus.github.io/audio-soundboard
+Live demo: https://sogladev.github.io/audio-soundboard
 
 ![screenshot of app](./images/screenshot.png)
 
@@ -12,7 +12,7 @@ The app has two buttons that play audio samples - `left.mp3` in the left channel
 
 - Play stereo audio samples
 - Simple UI with two buttons
-- Hosted on GitHub pages
+- Hosted on GitHub Pages
 
 ## Built with
 
@@ -37,7 +37,7 @@ npm run dev
 
 ## Deployment
 
-Generate static site:
+Generate a static site:
 
 ```
 npm run generate
@@ -68,7 +68,7 @@ npm run dev
 
 ## Deployment
 
-generate static site with
+Generate a static site with
 ```
 npm run generate
 ```
@@ -88,4 +88,4 @@ package.json script
 https://github.com/darioTecchia/nuxt3-ghpages
 https://github.com/andgyk/anime-soundboard
 
-Nuxt 3 Minimal Starter: Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 3 Minimal Starter: Refer to the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) for more information.
